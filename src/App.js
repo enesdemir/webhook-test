@@ -22,24 +22,16 @@ class App extends Component {
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
                     <p>
-                        Say who is the beauty?
-                        <input type="text" onChange={this.handleChange}/>
+                        Say who is the beauty?<br/>
+                        <input type="text" onChange={this.handleChange}/><br/>
                         <button onClick={() => {
                             if (this.state.value === "Hagar" || this.state.value === "hagar") {
                                 alert("Correct!");
                             } else {
                                 alert("Are u alive?");
                             }
-                        }}></button>
+                        }}>Check</button>
                     </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
                 </header>
             </div>
         );
