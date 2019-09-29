@@ -21,6 +21,7 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
+                    <p>Working!!!</p>
                     <p>
                         Say who is the beauty?<br/>
                         <input type="text" onChange={this.handleChange}/><br/>
