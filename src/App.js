@@ -26,7 +26,7 @@ class App extends Component {
                         Say who is the beauty?<br/>
                         <input type="text" onChange={this.handleChange}/><br/>
                         <button onClick={() => {
-                            if (this.state.value === "Hagar" || this.state.value === "hagar") {
+                            if (this.state.value === "honey" || this.state.value === "hagar") {
                                 alert("Correct!");
                             } else {
                                 alert("Are u alive?");
